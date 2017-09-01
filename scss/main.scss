@@ -1,0 +1,20 @@
+/* ASSETS */
+
+@import "assets/fontAwesome/_font-awesome.scss";
+@import "assets/bootstrap/_bootstrap.scss";
+
+/*  BASE  */
+
+@import "base/_base.scss";
+@import "base/_variables.scss";
+
+/*  MODULES */
+
+@import "modules/_buttons.scss";
+@import "modules/_display.scss";
+
+/*  LAYOUTS */
+
+@import "layouts/_calculator.scss";
+@import "layouts/_top_row.scss";
+@import "layouts/_bottom_row.scss";

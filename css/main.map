@@ -1,0 +1,26 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_base.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_variables.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_top_row.scss",
+		"../scss/modules/_bottom_row.scss",
+		"../scss/layouts/_calculator.scss"
+	],
+	"sourcesContent": [
+		"/*  BASE  */\r\n\r\n@import \"base/_base.scss\";\r\n@import \"base/_mixins.scss\";\r\n@import \"base/_variables.scss\";\r\n\r\n/*  MODULES */\r\n\r\n@import \"modules/_buttons.scss\";\r\n@import \"modules/_top_row.scss\";\r\n@import \"modules/_bottom_row.scss\";\r\n\r\n/*  LAYOUTS */\r\n\r\n@import \"layouts/_calculator.scss\";\r\n",
+		"html, body{\r\n    box-sizing: border-box;\r\n    background: url(\"../img/pixel_weave.png\");\r\n    color: white;\r\n    font-family: 'Merriweather', serif;\r\n}\r\n\r\n*, *:before, *:after {\r\n  box-sizing: inherit;\r\n}\r\n\r\nbutton{\r\n    background: transparent;\r\n    border: none;\r\n    font-size: 20px;\r\n}",
+		"",
+		"",
+		".clear{\r\n    padding: 6% 6% 6% 3%;\r\n    font-size: 25px;\r\n}\r\n\r\n.numbers{\r\n\r\n    button{\r\n        margin: 6% 0 2% 0;\r\n    }\r\n\r\n}\r\n\r\n.operators{\r\n\r\n    background-color: rgba(0, 0, 0, 0.5);\r\n    button{\r\n        margin: 10%;\r\n        font-size: 25px;\r\n    }\r\n\r\n}\r\n\r\n.equal{\r\n    font-size: 30px;\r\n    background-color: #00B4CC;\r\n    width: 100%;\r\n}",
+		".top{\r\n    background-color: rgba(0, 0, 0, 0.6);\r\n}",
+		".bottom{\r\n    background-color: rgba(0, 0, 0, 0.4);\r\n}",
+		".calculator{\r\n    position: absolute;\r\n    margin: 0 auto;\r\n    left: 0;\r\n    right: 0;\r\n    top: 20%;\r\n    width: 50%;\r\n    text-align: center;\r\n}"
+	],
+	"mappings": "AAAA,YAAY;;ACAZ,AAAA,IAAI,EAAE,AAAA,IAAI,CAAA;EACN,UAAU,EAAE,UAAW;EACvB,UAAU,EAAE,6BAAG;EACf,KAAK,EAAE,KAAM;EACb,WAAW,EAAE,qBAAsB;CACtC;;;AAED,AAAA,CAAC,EAAE,AAAC,CAAA,AAAA,OAAO,EAAE,AAAC,CAAA,AAAA,MAAM,CAAC;EACnB,UAAU,EAAE,OAAQ;CACrB;;;AAED,AAAA,MAAM,CAAA;EACF,UAAU,EAAE,WAAY;EACxB,MAAM,EAAE,IAAK;EACb,SAAS,EAAE,IAAK;CACnB;;ADTD,cAAc;;AINd,AAAA,MAAM,CAAA;EACF,OAAO,EAAE,WAAY;EACrB,SAAS,EAAE,IAAK;CACnB;;;AAED,AAEI,QAFI,CAEJ,MAAM,CAAA;EACF,MAAM,EAAE,SAAU;CACrB;;;AAIL,AAAA,UAAU,CAAA;EAEN,gBAAgB,EAAE,kBAAI;CAMzB;;;AARD,AAGI,UAHM,CAGN,MAAM,CAAA;EACF,MAAM,EAAE,GAAI;EACZ,SAAS,EAAE,IAAK;CACnB;;;AAIL,AAAA,MAAM,CAAA;EACF,SAAS,EAAE,IAAK;EAChB,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAAE,IAAK;CACf;;;AC3BD,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,kBAAI;CACzB;;;ACFD,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,kBAAI;CACzB;;ANUD,cAAc;;AOZd,AAAA,WAAW,CAAA;EACP,QAAQ,EAAE,QAAS;EACnB,MAAM,EAAE,MAAO;EACf,IAAI,EAAE,CAAE;EACR,KAAK,EAAE,CAAE;EACT,GAAG,EAAE,GAAI;EACT,KAAK,EAAE,GAAI;EACX,UAAU,EAAE,MAAO;CACtB",
+	"names": []
+}

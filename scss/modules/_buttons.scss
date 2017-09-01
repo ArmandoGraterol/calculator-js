@@ -1,0 +1,38 @@
+.clear{
+    padding: 4% 4% 4% 3%;
+    font-size: 23px;
+    background-color: $clearAndTopBG;
+}
+
+.numbers{
+    button{
+        margin: 6%;
+        padding: 20% 30%;
+    }
+
+}
+
+.operators{
+    button{
+        font-size: 25px;
+        padding: 4%;
+        background-color: $clearAndTopBG;
+
+    }
+
+}
+
+.equal{
+    font-size: 30px;
+    background-color: #00B4CC;
+    width: 100%;
+}
+
+@media (min-width: $screen-sm-min){
+    .operators{
+        button{
+        margin-bottom: 4%;        
+        }
+    }
+
+}

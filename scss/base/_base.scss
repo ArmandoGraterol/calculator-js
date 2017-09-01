@@ -1,0 +1,21 @@
+html, body{
+    box-sizing: border-box;
+    background: url("../img/pixel_weave.png");
+    color: white;
+    font-family: 'Merriweather', serif;
+    z-index: 1;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+button{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+
+    &:focus{
+        outline: none;
+    }
+}

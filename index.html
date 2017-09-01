@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+    <main class="calculator container-fluid">
+
+        <!-- DISPLAY AND CLEAR BUTTON -->
+        <section class="top row">
+            <button class="clear col-xs-2">C</button>
+            <div class="col-xs-10">
+                <p class ="display" id="display"></p>
+            </div>
+        </section>
+
+        <!-- NUMBERS -->
+        <section class="bottom row">
+            <section class="numbers col-sm-9">
+                <section class="row">
+                    <div class="col-xs-3">
+                        <button>9</button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button>8</button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button>7</button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button>6</button>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="col-xs-3">
+                        <button>5</button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button>4</button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button>3</button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button>2</button>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="col-xs-3">
+                        <button>1</button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button>0</button>
+                    </div>
+
+                    <!-- DECIMAL POINT -->
+                    <div class="col-xs-3">
+                        <button>.</button>
+                    </div>
+                </section>
+            </section>
+
+            <!-- OPERATORS --> 
+            <section class="operators col-sm-3">
+                <div class="row">
+                    <button class="col-xs-3 col-sm-6">+</button>
+                    <button class="col-xs-3 col-sm-6">-</button>
+                    <button class="col-xs-3 col-sm-6">x</button>
+                    <button class="col-xs-3 col-sm-6">÷</button>
+                </div>
+            </section>
+
+            <!-- EQUAL BUTTON -->
+            <button class="equal">=</button>
+        </section>
+    </main>
+
+    <script src="js/calculator.js" type="text/javascript"></script>
+</body>
+</html>

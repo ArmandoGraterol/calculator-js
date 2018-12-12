@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Calculator
 > Calculator for basic operations
 
@@ -19,3 +20,8 @@ Pre-compiled styles are in the scss folder organized with the SMACSS methodology
 ## Licensing
 
 The code in this project is licensed under MIT license.
+=======
+# Calculator-JS
+
+Basic calculator made with HTML, CSS(SCSS) and JavaScript
+>>>>>>> a776baba2c30af7ccb78fae775cf7d151eac3068
